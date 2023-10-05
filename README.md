@@ -1,8 +1,8 @@
 # FastReact: REACT + FASTAPI Monorepo
-This project is a mono-repo template for boostraping a react frontend app and a python fastapi backend app all orchestrated using yarn workspace
+This project is a mono-repo template for bootstrapping a react frontend app and a python fastapi backend app all orchestrated using yarn workspace
 
 # Requirements
-- Python 3.7 +
+- Python 3.7 + (Pyenv is recommended for installation of Python3 and PIP3)
 - Pip 3
 - Node JS 16+
 
@@ -11,18 +11,9 @@ This project is a mono-repo template for boostraping a react frontend app and a 
 - Python Backend Dependencies is managed through pipenv
 - Entire Monorepo is managed through yarn workspace
 
-### Frontend Setup
-1. Change your directory to frontend by running ```cd frontend```
-2. Run ```yarn``` to install all the dependencies
-
-
-### Backend Setup
-1. Change your directory to backend by running ```cd backend```
-2. Run ```yarn preinstall``` to install all the dependencies
-
-
-### Monorepo root
-1. Ensure you are in the root folder
-2. Run ```yarn``` to install dependencies in the root folder to allow the scripts in the workspace run.
-3. You can run ```yarn dev``` to start both the frontend and the backend
-
+### Step by Step Setup
+1. clone the repo `git clone https://github.com/tosinamuda/fastreact`
+2. change your directory to fastreact: ```cd fastreact```
+3. Run ```yarn``` to install all the dependencies 
+4. Run ```yarn dev``` to run a development environment
+5. Run ```yarn start``` to start a production-ready environment
